@@ -3,7 +3,6 @@ export default {
     props: {
         data: {
             type: Object,
-            required: true,
         },
     },
 };
@@ -11,10 +10,7 @@ export default {
 
 <template>
     <div class="card">
-
         <h2>{{ data.name }}</h2>
-        <p>{{ data.type }}</p>
-
     </div>
 </template>
 
